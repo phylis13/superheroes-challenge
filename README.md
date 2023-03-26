@@ -1,24 +1,39 @@
-# README
+## Superheroes API
+Description
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The Superheroes API is a Ruby on Rails backend API that provides information on superheroes. It uses three database tables to store information on superheroes, their powers, and their archenemies.
 
-Things you may want to cover:
+## Requirements
 
-* Ruby version
+This project requires the following:
 
-* System dependencies
+Rails API backend
+Three resources (three DB tables)
 
-* Configuration
+## Project Setup
 
-* Database creation
+To set up the project, follow these steps -make a a repo on your github account
 
-* Database initialization
+    git clone the repo on your terminal
 
-* How to run the test suite
+-Install the gem and add to the application's Gemfile by executing:
 
-* Services (job queues, cache servers, search engines, etc.)
+-$ bundle add UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
 
-* Deployment instructions
+=If bundler is not being used to manage dependencies, install the gem by executing:
 
-* ...
+-$ gem install UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG -Set up the database by running rails db:migrate -seeding by db:seed -start the server bt running raiils s
+## Usage
+The Superheroes API provides endpoints for accessing information on superheroes, powers, and archenemies. Here are some examples of how to use the API:
+Get a list of all superheroes
+
+## Contributing
+
+Contributing If you would like to contribute to this project, feel free to submit a pull request.
+## License
+
+The gem is available as open source under the terms of the MIT License.
+## Authors
+
+phylis njeri
+
