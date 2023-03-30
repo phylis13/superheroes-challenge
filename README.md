@@ -45,7 +45,7 @@ rails db:seed # if you want to generate your own seed data
 
     You can now access the API by going to http://localhost:3000.
 
-API Routes
+# API Routes
 GET /heroes
 
 Returns a list of all heroes in the following JSON format:
@@ -54,7 +54,7 @@ css
 
 [  {    "id": 1,    "name": "Kamala Khan",    "super_name": "Ms. Marvel"  },  {    "id": 2,    "name": "Doreen Green",    "super_name": "Squirrel Girl"  },  {    "id": 3,    "name": "Gwen Stacy",    "super_name": "Spider-Gwen"  }]
 
-GET /heroes/:id
+# GET /heroes/:id
 
 Returns a single hero with the specified ID in the following JSON format:
 
@@ -78,7 +78,7 @@ json
   ]
 }
 
-If the hero is not found, returns the following JSON with the appropriate HTTP status code:
+# If the hero is not found, returns the following JSON with the appropriate HTTP status code:
 
 json
 
@@ -94,7 +94,7 @@ css
 
 [  {    "id": 1,    "name": "super strength",    "description": "gives the wielder super-human strengths"  },  {    "id": 2,    "name": "flight",    "description": "gives the wielder the ability to fly through the skies at supersonic speed"  }]
 
-GET /powers/:id
+# GET /powers/:id
 
 Returns a single power with the specified ID in the following JSON format:
 
